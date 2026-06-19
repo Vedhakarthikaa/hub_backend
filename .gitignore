@@ -1,6 +1,26 @@
-# Ignore all __pycache__ folders anywhere in the project
+# Python cache
 __pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore the uploads directory
-uploads/
+# Environment variables
 .env
+.env.*
+
+# Uploads / media
+uploads/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Alembic cache (optional but safe)
+alembic/__pycache__/
+alembic/versions/__pycache__/
